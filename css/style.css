@@ -353,6 +353,7 @@ body {
   }
   .menu-button-active {
     height: 0;
+    z-index: 150;
   }
   .menu-button-active:before {
     transform: rotate(45deg);
@@ -374,6 +375,7 @@ body {
     width: 250px;
     padding-bottom: 40px;
     transition: opacity 0.4s;
+     z-index: 149;
   }
   .header-active {
     opacity: 1;
